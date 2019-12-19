@@ -20,7 +20,7 @@ function App() {
       email: member.email,
       role: member.role
     };
-    setMembers([...members], newMember);
+    setMembers([...members, newMember]);
   };
   return (
     <div className="App">

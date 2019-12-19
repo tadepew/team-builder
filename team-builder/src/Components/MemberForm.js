@@ -12,6 +12,7 @@ const MemberForm = props => {
     props.addNewMember(member);
     setMember({ name: "", email: "", role: "" });
   };
+
   return (
     <form onSubmit={submitForm}>
       <label htmlFor="name">Name</label>
