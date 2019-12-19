@@ -6,8 +6,8 @@ const Members = props => {
       {props.members.map(member => (
         <div className="member" key={member.id}>
           <h2>{member.name}</h2>
-          <p>{member.email}</p>
-          <p>{member.role}</p>
+          <p>Email: {member.email}</p>
+          <p>Role: {member.role}</p>
         </div>
       ))}
     </div>
